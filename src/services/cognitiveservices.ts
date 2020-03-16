@@ -9,8 +9,8 @@ export interface CognitiveServiceConfiguration {
 export class CognitiveService {
     private context: ApplicationCustomizerContext;
     private qnamakerEnpoint: string = "https://sharepointdoubts.azurewebsites.net";
-    private qnamakerEndpointKey: string = "a662745f-789a-439c-bb36-20db30b172e6";
-    private knowledgebaseId: string = "52e1aa59-9cef-4778-bed8-f3f93915d0c8";
+    private qnamakerEndpointKey: string = "Update your End point here";
+    private knowledgebaseId: string = "Update your KB ID";
 
     constructor(config: CognitiveServiceConfiguration) {
         this.context = config.context;
